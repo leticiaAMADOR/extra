@@ -18,7 +18,7 @@ myform = form.Form(
     form.Dropdown('Cliente', Clientes.getClientes()), 
     form.Dropdown('Pelicula',peliculas.getPeliculas()), 
     form.Dropdown('Formato', ["Blueray","DVD"]),
-    form.Dropdown('Tiempo', ["1","2","3","4","5","6","7"])
+    form.Dropdown('Tiempo', ["1","2","3"])
     
     ) 
 class index:
